@@ -5,22 +5,37 @@
   "description": "Aplicación para gestionar el progreso académico en cualquier carrera universitaria",
   "start_url": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay"],
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
   "orientation": "portrait-primary",
   "scope": "/",
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.mallaapp.ucp",
+      "id": "com.mallaapp.ucp"
+    }
+  ],
+  "scope_extensions": [
+    {
+      "origin": "https://ucp-carreras-malla.vercel.app"
+    }
+  ],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "https://raw.githubusercontent.com/microsoft/pwabuilder/main/assets/icons/android/android-launchericon-192-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://raw.githubusercontent.com/microsoft/pwabuilder/main/assets/icons/android/android-launchericon-512-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
@@ -28,21 +43,42 @@
   ],
   "screenshots": [
     {
-      "src": "https://sjc.microlink.io/V40IcOWS405_uWChPbtuHbYrhIpb1_TaPQsf-0dmUe_1uCJrUe8R6WLBDXbNycWxZnn2Gcky34Ga7VolcImc4A.jpeg",
-      "sizes": "1280x720",
-      "type": "image/jpeg",
+      "src": "https://raw.githubusercontent.com/microsoft/pwabuilder/main/assets/screenshots/1.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
       "form_factor": "wide",
       "label": "Vista principal de la malla curricular"
     },
     {
-      "src": "https://sjc.microlink.io/V40IcOWS405_uWChPbtuHbYrhIpb1_TaPQsf-0dmUe_1uCJrUe8R6WLBDXbNycWxZnn2Gcky34Ga7VolcImc4A.jpeg",
-      "sizes": "720x1280",
-      "type": "image/jpeg",
+      "src": "https://raw.githubusercontent.com/microsoft/pwabuilder/main/assets/screenshots/2.png",
+      "sizes": "2880x1800",
+      "type": "image/png",
       "form_factor": "narrow",
       "label": "Vista móvil de la aplicación"
     }
   ],
   "categories": ["education", "productivity"],
   "lang": "es",
-  "dir": "ltr"
+  "dir": "ltr",
+  "shortcuts": [
+    {
+      "name": "Ver Progreso",
+      "url": "/?view=progress",
+      "description": "Ver estadísticas de progreso académico"
+    },
+    {
+      "name": "Editar Carrera",
+      "url": "/?edit=career",
+      "description": "Editar configuración de carrera"
+    }
+  ],
+  "share_target": {
+    "action": "/share-target",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  }
 }
