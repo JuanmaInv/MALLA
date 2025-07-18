@@ -16,25 +16,25 @@
   },
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "https://ucp-carreras-malla.vercel.app/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://ucp-carreras-malla.vercel.app/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-192.png",
+      "src": "https://ucp-carreras-malla.vercel.app/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://ucp-carreras-malla.vercel.app/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -42,14 +42,14 @@
   ],
   "screenshots": [
     {
-      "src": "/screenshot-wide.png",
+      "src": "https://ucp-carreras-malla.vercel.app/screenshot-wide.png",
       "sizes": "1280x720",
       "type": "image/png",
       "form_factor": "wide",
       "label": "Vista principal de la malla curricular en escritorio"
     },
     {
-      "src": "/screenshot-narrow.png",
+      "src": "https://ucp-carreras-malla.vercel.app/screenshot-narrow.png",
       "sizes": "720x1280",
       "type": "image/png",
       "form_factor": "narrow",
@@ -63,33 +63,12 @@
     {
       "name": "Ver Progreso",
       "url": "/?view=progress",
-      "description": "Ver estadísticas de progreso académico",
-      "icons": [
-        {
-          "src": "/icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
+      "description": "Ver estadísticas de progreso académico"
     },
     {
       "name": "Editar Carrera",
       "url": "/?edit=career",
-      "description": "Editar configuración de carrera",
-      "icons": [
-        {
-          "src": "/icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
+      "description": "Editar configuración de carrera"
     }
-  ],
-  "share_target": {
-    "action": "/share-target",
-    "method": "GET",
-    "params": {
-      "title": "title",
-      "text": "text",
-      "url": "url"
-    }
-  }
+  ]
 }
