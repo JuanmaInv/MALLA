@@ -1,74 +1,25 @@
 {
-  "id": "malla-curricular-ucp",
   "name": "Malla Curricular Interactiva",
   "short_name": "MallaApp",
   "description": "Aplicación para gestionar el progreso académico en cualquier carrera universitaria",
   "start_url": "/",
   "display": "standalone",
-  "display_override": ["window-controls-overlay"],
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
   "orientation": "portrait-primary",
   "scope": "/",
-  "prefer_related_applications": false,
-  "launch_handler": {
-    "client_mode": "navigate-existing"
-  },
   "icons": [
     {
-      "src": "https://ucp-carreras-malla.vercel.app/icon-192.png",
+      "src": "https://via.placeholder.com/192x192/3b82f6/ffffff?text=MA",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "https://ucp-carreras-malla.vercel.app/icon-512.png",
+      "src": "https://via.placeholder.com/512x512/3b82f6/ffffff?text=MA",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "https://ucp-carreras-malla.vercel.app/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "https://ucp-carreras-malla.vercel.app/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "https://ucp-carreras-malla.vercel.app/screenshot-wide.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Vista principal de la malla curricular en escritorio"
-    },
-    {
-      "src": "https://ucp-carreras-malla.vercel.app/screenshot-narrow.png",
-      "sizes": "720x1280",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Vista móvil de la aplicación"
+      "type": "image/png"
     }
   ],
   "categories": ["education", "productivity"],
-  "lang": "es",
-  "dir": "ltr",
-  "shortcuts": [
-    {
-      "name": "Ver Progreso",
-      "url": "/?view=progress",
-      "description": "Ver estadísticas de progreso académico"
-    },
-    {
-      "name": "Editar Carrera",
-      "url": "/?edit=career",
-      "description": "Editar configuración de carrera"
-    }
-  ]
+  "lang": "es"
 }
