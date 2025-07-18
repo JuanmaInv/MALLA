@@ -1,0 +1,48 @@
+{
+  "id": "malla-curricular-ucp",
+  "name": "Malla Curricular Interactiva",
+  "short_name": "MallaApp",
+  "description": "Aplicación para gestionar el progreso académico en cualquier carrera universitaria",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://sjc.microlink.io/V40IcOWS405_uWChPbtuHbYrhIpb1_TaPQsf-0dmUe_1uCJrUe8R6WLBDXbNycWxZnn2Gcky34Ga7VolcImc4A.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Vista principal de la malla curricular"
+    },
+    {
+      "src": "https://sjc.microlink.io/V40IcOWS405_uWChPbtuHbYrhIpb1_TaPQsf-0dmUe_1uCJrUe8R6WLBDXbNycWxZnn2Gcky34Ga7VolcImc4A.jpeg",
+      "sizes": "720x1280",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Vista móvil de la aplicación"
+    }
+  ],
+  "categories": ["education", "productivity"],
+  "lang": "es",
+  "dir": "ltr"
+}
